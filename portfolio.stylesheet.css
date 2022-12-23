@@ -1,0 +1,149 @@
+/*Universal Selectors*/
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+    grid-column: 16;
+    columns: auto;
+    margin: 0px;
+}
+html {
+
+}
+body {
+    background-image:
+    url('./lightbuld.background.jpg') ;
+    width: 100%;
+    height: 100%;
+    color: rgb( 224, 224, 224); 
+    
+}
+main {
+    
+}
+
+
+/*Nav Bar Section*/
+
+
+.navbar {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(100, 80, 80, 0.75);
+    width: auto;
+    padding: 15px 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+}
+
+
+/*Breadcrumb Section*/
+
+
+li a {
+    text-decoration: none;
+    color: rgb(65, 65, 179);
+    font-size: 24px;
+    
+}
+.breadcrumb li {
+    display: inline;
+}
+.breadcrumb li+li::before {
+    content: ">>>";
+    color: rgb(218, 133, 30);
+}
+.breadcrumb a:hover {
+    color: rgb(218, 133, 30);
+    text-decoration: underline;
+}
+.breadcrumb a:active {
+    color: rgb(65, 65, 179);
+    text-decoration: none;
+}
+
+.links li {
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 750px;
+    top: 2px;
+}
+.links li+li::before {
+    content: "";
+}
+
+
+/*Name and Headshot Section*/
+
+
+.headcontainer {
+    display: inline-flex;
+}
+.name {
+    font-size: 54px;
+    font-weight: 1000;
+    border-bottom: 3px solid rgb( 224, 224, 224);
+    width: 500px;
+    height: 160px;
+    margin-top: 50px;
+    color: rgb(218, 133, 30);
+    position: relative;
+    left: 16px;
+}
+.headshot {
+    width: 275px;
+    height: 275px;
+    border: 1px solid rgb(218, 133, 30);
+    border-radius: 5px;
+    position: relative;
+    left: 515px;
+    top: 25px;
+}
+
+
+
+/*Bio Section*/
+
+
+.container {
+    width: 1324px;
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+.bio {
+    font-weight: 300;
+    font-size: 19px;
+    width: 600px;
+    position: relative;
+    top: 75px;
+    left: 10px;
+    padding-bottom: 0%;
+}
+aside {
+    width: 388px;
+    color: rgb(59, 55, 55);
+    position: relative;
+    top: 40px;
+    left: 365px;
+    padding-bottom: 0%;
+    font-style: italic;
+    font-weight: 20;
+}
+aside:hover {
+    color: rgb(218, 133, 30);
+}
+.highlight {
+    color: rgb(218, 133, 30);
+}
+strong {
+    text-decoration: underline;
+}
+
+
+
+
